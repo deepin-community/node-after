@@ -1,0 +1,24 @@
+Source: node-after
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               mocha <!nocheck>,
+               dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-after
+Vcs-Git: https://salsa.debian.org/js-team/node-after.git
+Homepage: https://github.com/Raynos/after
+Rules-Requires-Root: no
+
+Package: node-after
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs
+Description: Flow control for Node.js
+ after is a Node.js module to assist with flow control. It provides a function
+ to invoke a callback after N calls.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,35 @@
+node-after (0.8.2-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+  * Fix GitHub tags regex
+
+ -- Yadd <yadd@debian.org>  Thu, 19 Aug 2021 09:45:58 +0200
+
+node-after (0.8.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Change priority to optional
+  * Update VCS fields to salsa
+  * Switch test and install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 18 Nov 2019 19:35:46 +0100
+
+node-after (0.8.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #781464)
+
+ -- Sruthi Chandran <srud@disroot.org>  Sat, 10 Dec 2016 22:26:55 +0530
